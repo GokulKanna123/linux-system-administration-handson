@@ -8,7 +8,7 @@ Implemented hands-on Linux system administration tasks on an AWS EC2 instance, c
 
 **📂 1. File Management**
 
-Created and managed files/directories using touch, mkdir, cp, mv, ls
+Created and managed files/directories using touch, mkdir, cp, mv, ls,rm
 Verified file structure and permissions
 
 👉 Outcome: Successfully organized and manipulated files in a Linux environment
