@@ -47,7 +47,7 @@ OS: Ubuntu Linux
 
 **🔹 Key Commands Used**
 
-mkdir, touch, cp, mv, ls
+mkdir, touch, cp, mv, rm,ls
 chmod, chown
 ps, top
 tail, grep
