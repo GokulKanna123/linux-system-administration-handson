@@ -1,33 +1,62 @@
-# Linux System Administration Project
+**📄 Linux System Administration Project**
 
-## Overview
+**🔹 Overview**
 
-Performed hands-on Linux system administration tasks including file management, permissions, process monitoring, and log analysis.
+Implemented hands-on Linux system administration tasks on an AWS EC2 instance, covering file management, permissions, process monitoring, and log analysis to simulate real-world server operations.
 
-## Tasks Performed
+**🔹 Tasks Performed**
 
-### 1. File Management
+**📂 1. File Management**
 
-* Created, copied, and moved files using `touch`, `cp`, `mv`
+Created and managed files/directories using touch, mkdir, cp, mv, ls
+Verified file structure and permissions
 
-### 2. File Permissions
+👉 Outcome: Successfully organized and manipulated files in a Linux environment
 
-* Applied permissions using `chmod`
-* Used special permissions (SUID, SGID, Sticky bit)
+**🔐 2. File Permissions & Special Permissions**
 
-### 3. Process Monitoring
+Modified permissions using chmod
+Changed ownership using chown
+Implemented:
+SUID
+SGID
+Sticky Bit
 
-* Monitored system processes using `ps`, `top`
+👉 Outcome: Controlled access and security for files and directories
 
-### 4. Log Analysis
+**⚙️ 3. Process Monitoring**
 
-* Analyzed Apache logs using `tail`, `grep`
+Monitored running processes using ps, top
+Identified active system processes and resource usage
 
-## Tools Used
+👉 Outcome: Gained visibility into system performance and process behavior
 
-* Linux (Ubuntu)
-* Apache Web Server
+**📜 4. Log Analysis**
 
-## Output
+Analyzed system logs from /var/log
+Used tail, grep to filter logs
+Observed real-time logs using tail -f
 
-(Screenshots attached in folders)
+👉 Outcome: Identified system activities and troubleshooting information
+
+**🔹 Environment**
+
+Cloud Platform: Amazon Web Services
+Service: EC2
+OS: Ubuntu Linux
+
+**🔹 Key Commands Used**
+
+mkdir, touch, cp, mv, ls
+chmod, chown
+ps, top
+tail, grep
+
+**🔹 Output Screenshots**
+
+File management operations
+Permission changes
+Process monitoring
+Log analysis
+
+**📁 Stored in /screenshots folder**
